@@ -1,0 +1,23 @@
+# pointer to your local ros install. to make sure you have all the right packages, install
+# ros-fuerte-pr2-interactive-manipulation using apt-get
+- other: {local-name: /opt/ros/fuerte/share/ros}
+- other: {local-name: /opt/ros/fuerte/share}
+- other: {local-name: /opt/ros/fuerte/stacks}
+- setup-file: {local-name: /opt/ros/fuerte/setup.sh}
+
+# interactive manipulation source code from github
+- git: {local-name: src/object_manipulation, uri: 'git@github.com:ros-interactive-manipulation/object_manipulation.git'}
+- git: {local-name: src/pr2_object_manipulation, uri: 'git@github.com:ros-interactive-manipulation/pr2_object_manipulation.git', version: fuerte-with-groovy-vis}
+
+# plugging in. delete this if you don't want to self-plugin
+- hg: {local-name: src/pr2_plugs, uri: 'https://kforge.ros.org/plugs/hg'}
+- hg: {local-name: src/smach, uri: 'https://kforge.ros.org/smach/executive_smach'}
+
+# rviz, interactive markers. delete this if you are checking this out on a PR2
+- git: {local-name: src/interactive_markers, uri: 'https://github.com/ros-visualization/interactive_markers.git', version: 66a8b9f57e96542ea5c2cd7dad3610448f2a1ba8}
+- git: {local-name: src/rviz, uri: 'https://github.com/ros-interactive-manipulation/rviz.git', version: fuerte-compat}
+- git: {local-name: src/rviz_view_controllers, uri: 'https://github.com/ros-visualization/rviz_view_controllers.git', version: master}
+
+# people tracking and trunk opencv. if you don't want to track people, you can remove this
+- svn: {local-name: src/people_tracking, uri: 'svn+ssh://vcs@kforge.ros.org/sandbox/people_tracking/trunk'}
+- git: {local-name: src/opencv_trunk, uri: 'git@github.com:jonbinney/opencv_trunk.git'}
