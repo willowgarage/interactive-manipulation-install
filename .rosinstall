@@ -15,6 +15,7 @@
 
 # rviz, interactive markers. delete this if you are checking this out on a PR2
 - git: {local-name: src/interactive_markers, uri: 'https://github.com/ros-interactive-manipulation/interactive_markers.git', version: fuerte-devel}
+- git: {local-name: src/interactive_marker_proxy, uri: 'https://github.com/dgossow/interactive_marker_proxy.git', version: master}
 - git: {local-name: src/rviz, uri: 'https://github.com/ros-interactive-manipulation/rviz.git', version: fuerte-compat}
 - git: {local-name: src/rviz_view_controllers, uri: 'https://github.com/ros-visualization/rviz_view_controllers.git', version: master}
 
