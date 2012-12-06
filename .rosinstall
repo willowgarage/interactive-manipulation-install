@@ -14,10 +14,10 @@
 - hg: {local-name: src/smach, uri: 'https://kforge.ros.org/smach/executive_smach'}
 
 # rviz, interactive markers. delete this if you are checking this out on a PR2
-- git: {local-name: src/interactive_markers, uri: 'https://github.com/ros-interactive-manipulation/interactive_markers.git', version: fuerte-devel}
-- git: {local-name: src/interactive_marker_proxy, uri: 'https://github.com/dgossow/interactive_marker_proxy.git', version: master}
-- git: {local-name: src/rviz, uri: 'https://github.com/ros-interactive-manipulation/rviz.git', version: fuerte-compat}
-- git: {local-name: src/rviz_view_controllers, uri: 'https://github.com/ros-visualization/rviz_view_controllers.git', version: master}
+- git: {local-name: src/interactive_markers, uri: 'git@github.com:ros-interactive-manipulation/interactive_markers.git', version: fuerte-devel}
+- git: {local-name: src/interactive_marker_proxy, uri: 'git@github.com:dgossow/interactive_marker_proxy.git', version: master}
+- git: {local-name: src/rviz, uri: 'git@github.com:ros-interactive-manipulation/rviz.git', version: fuerte-compat}
+- git: {local-name: src/rviz_view_controllers, uri: 'git@github.com:ros-visualization/rviz_view_controllers.git', version: master}
 
 # people tracking and trunk opencv. if you don't want to track people, you can remove this
 - svn: {local-name: src/people_tracking, uri: 'svn+ssh://vcs@kforge.ros.org/sandbox/people_tracking/trunk'}
