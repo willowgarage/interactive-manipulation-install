@@ -19,6 +19,6 @@
 - git: {local-name: src/rviz, uri: 'git@github.com:ros-interactive-manipulation/rviz.git', version: fuerte-compat}
 - git: {local-name: src/rviz_view_controllers, uri: 'git@github.com:ros-visualization/rviz_view_controllers.git', version: master}
 
-# people tracking and trunk opencv. if you don't want to track people, you can remove this
-- svn: {local-name: src/people_tracking, uri: 'svn+ssh://vcs@kforge.ros.org/sandbox/people_tracking/trunk'}
-- git: {local-name: src/opencv_trunk, uri: 'git@github.com:jonbinney/opencv_trunk.git'}
+# people tracking and trunk opencv. if you want to track people, you can uncomment this
+#- svn: {local-name: src/people_tracking, uri: 'svn+ssh://vcs@kforge.ros.org/sandbox/people_tracking/trunk'}
+#- git: {local-name: src/opencv_trunk, uri: 'git@github.com:jonbinney/opencv_trunk.git'}
