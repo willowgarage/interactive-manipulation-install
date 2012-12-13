@@ -18,7 +18,7 @@
 - git: {local-name: src/interactive_marker_proxy, uri: 'git@github.com:dgossow/interactive_marker_proxy.git', version: master}
 - git: {local-name: src/rviz, uri: 'git@github.com:ros-interactive-manipulation/rviz.git', version: fuerte-compat}
 - git: {local-name: src/rviz_view_controllers, uri: 'git@github.com:ros-visualization/rviz_view_controllers.git', version: master}
-- git: {local-name: src/rviz_http_video_streamer, uri: 'git@github.com:ros-interactive-manipulation/ros_http_video_streamer.git', version: master}
+- git: {local-name: src/ros_http_video_streamer, uri: 'git@github.com:ros-interactive-manipulation/ros_http_video_streamer.git', version: master}
 
 # rosbridge
 - git: {local-name: src/rosbridge_suite, uri: 'git://github.com/RobotWebTools/rosbridge_suite.git', version: fuerte-devel}
