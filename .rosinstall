@@ -8,7 +8,7 @@
 - git: {local-name: src/pr2_object_manipulation, uri: 'git@github.com:ros-interactive-manipulation/pr2_object_manipulation.git', version: groovy-devel}
 
 # interactive markers
-- git: {local-name: src/interactive_markers, uri: 'https://github.com/ros-visualization/interactive_markers.git', version: groovy-devel}
+# - git: {local-name: src/interactive_markers, uri: 'https://github.com/ros-visualization/interactive_markers.git', version: groovy-devel}
 
 # pr2 plugs
 - hg: {local-name: src/pr2_plugs, uri: 'https://kforge.ros.org/plugs/hg'}
