@@ -18,7 +18,7 @@
 - git: {local-name: src/interactive-manipulation-sandbox, uri: 'git@github.com:willowgarage/interactive-manipulation-sandbox.git', version: groovy-devel}
 - git: {local-name: src/rosbridge_suite, uri: 'git://github.com/RobotWebTools/rosbridge_suite.git', version: fuerte-devel}
 - svn: {local-name: src/mjpeg_server, uri: 'http://svn.code.sf.net/p/bosch-ros-pkg/code/trunk/stacks/mjpeg_server'}
-- git: {local-name: src/ros_http_video_streamer, uri: 'git@github.com:RobotWebTools/ros_http_video_streamer.git', version: master}
+- git: {local-name: src/ros_http_video_streamer, uri: 'git@github.com:RobotWebTools/ros_http_video_streamer.git', version: groovy-devel}
 - git: {local-name: src/interactive_marker_proxy, uri: 'git@github.com:dgossow/interactive_marker_proxy.git', version: groovy-devel}
 - git: {local-name: src/tf2_web_republisher, uri: 'git@github.com:RobotWebTools/tf2_web_republisher.git'}
 
