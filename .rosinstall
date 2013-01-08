@@ -4,6 +4,27 @@
 - setup-file: {local-name: /opt/ros/groovy/setup.sh}
 
 
+## catkin (wet) packages and js libraries ##################
+
+# interactive markers
+# - git: {local-name: src/interactive_markers, uri: 'git@github.com:ros-visualization/interactive_markers.git', version: groovy-devel}
+- git: {local-name: src/interactive_marker_proxy, uri: 'git@github.com:dgossow/interactive_marker_proxy.git', version: groovy-devel}
+- git: {local-name: src/tf2_web_republisher, uri: 'git@github.com:RobotWebTools/tf2_web_republisher.git', version: groovy-devel}
+- git: {local-name: src/geometry_experimental, uri: 'git@github.com:jkammerl/geometry-experimental.git', version: groovy-devel}
+
+# for running the web version of pr2_marker_control standalone
+- git: {local-name: src/interactivemarkersjs, uri: 'git@github.com:RobotWebTools/interactivemarkersjs.git', version: groovy-devel}
+
+# video and depth streaming
+- git: {local-name: src/ros_http_video_streamer, uri: 'git@github.com:RobotWebTools/ros_http_video_streamer.git', version: groovy-devel}
+
+# tf_conversions, only needed for plugs until the debians catch up
+- hg: {local-name: src/geometry, uri: 'http://kforge.ros.org/geometry/geometry'}
+
+# people tracking and trunk opencv. if you don't want to track people, you can remove this
+#- svn: {local-name: src/people_tracking, uri: 'svn+ssh://vcs@kforge.ros.org/sandbox/people_tracking/trunk'}
+#- git: {local-name: src/opencv_trunk, uri: 'git@github.com:jonbinney/opencv_trunk.git'}
+
 
 ## rosbuild (dry) stacks & packages ###############
 
@@ -19,24 +40,3 @@
 - git: {local-name: rosbuild_src/rosbridge_suite, uri: 'git://github.com/RobotWebTools/rosbridge_suite.git', version: fuerte-devel}
 - git: {local-name: rosbuild_src/interactive-manipulation-sandbox, uri: 'git@github.com:willowgarage/interactive-manipulation-sandbox.git', version: groovy-devel}
 - svn: {local-name: rosbuild_src/mjpeg_server, uri: 'http://svn.code.sf.net/p/bosch-ros-pkg/code/trunk/stacks/mjpeg_server'}
-
-## catkin (wet) stacks & packages ##################
-
-# interactive markers
-# - git: {local-name: src/interactive_markers, uri: 'git@github.com:ros-visualization/interactive_markers.git', version: groovy-devel}
-- git: {local-name: src/interactive_marker_proxy, uri: 'git@github.com:dgossow/interactive_marker_proxy.git', version: groovy-devel}
-- git: {local-name: src/tf2_web_republisher, uri: 'git@github.com:RobotWebTools/tf2_web_republisher.git', version: groovy-devel}
-- git: {local-name: src/geometry_experimental, uri: 'git@github.com:jkammerl/geometry-experimental.git', version: groovy-devel}
-
-# for running the web version of pr2_marker_control standalone
-- git: {local-name: src/interactivemarkersjs, uri: 'git://github.com/dgossow/interactivemarkersjs.git', version: groovy-devel}
-
-# video and depth streaming
-- git: {local-name: src/ros_http_video_streamer, uri: 'git@github.com:RobotWebTools/ros_http_video_streamer.git', version: groovy-devel}
-
-# tf_conversions, only needed for plugs until the debians catch up
-- hg: {local-name: src/geometry, uri: 'http://kforge.ros.org/geometry/geometry'}
-
-# people tracking and trunk opencv. if you don't want to track people, you can remove this
-#- svn: {local-name: src/people_tracking, uri: 'svn+ssh://vcs@kforge.ros.org/sandbox/people_tracking/trunk'}
-#- git: {local-name: src/opencv_trunk, uri: 'git@github.com:jonbinney/opencv_trunk.git'}
