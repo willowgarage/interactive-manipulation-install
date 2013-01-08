@@ -12,18 +12,13 @@
 - git: {local-name: rosbuild_src/pr2_object_manipulation, uri: 'git@github.com:ros-interactive-manipulation/pr2_object_manipulation.git', version: groovy-devel}
 
 # pr2 plugs
-- hg: {local-name: src/pr2_plugs, uri: 'https://kforge.ros.org/plugs/hg'}
-- hg: {local-name: src/smach, uri: 'https://kforge.ros.org/smach/executive_smach'}
+- hg: {local-name: rosbuild_src/pr2_plugs, uri: 'https://kforge.ros.org/plugs/hg'}
+- hg: {local-name: rosbuild_src/smach, uri: 'https://kforge.ros.org/smach/executive_smach'}
 
 # web interface dependencies
-- git: {local-name: src/rosbridge_suite, uri: 'git://github.com/RobotWebTools/rosbridge_suite.git', version: fuerte-devel}
-- git: {local-name: src/interactive-manipulation-sandbox, uri: 'git@github.com:willowgarage/interactive-manipulation-sandbox.git', version: groovy-devel}
-- svn: {local-name: src/mjpeg_server, uri: 'http://svn.code.sf.net/p/bosch-ros-pkg/code/trunk/stacks/mjpeg_server'}
-
-# tf_conversions, only needed for plugs until the debians catch up
-- hg: {local-name: src/geometry, uri: 'http://kforge.ros.org/geometry/geometry'}
-
-
+- git: {local-name: rosbuild_src/rosbridge_suite, uri: 'git://github.com/RobotWebTools/rosbridge_suite.git', version: fuerte-devel}
+- git: {local-name: rosbuild_src/interactive-manipulation-sandbox, uri: 'git@github.com:willowgarage/interactive-manipulation-sandbox.git', version: groovy-devel}
+- svn: {local-name: rosbuild_src/mjpeg_server, uri: 'http://svn.code.sf.net/p/bosch-ros-pkg/code/trunk/stacks/mjpeg_server'}
 
 ## catkin (wet) stacks & packages ##################
 
@@ -38,6 +33,9 @@
 
 # video and depth streaming
 - git: {local-name: src/ros_http_video_streamer, uri: 'git@github.com:RobotWebTools/ros_http_video_streamer.git', version: groovy-devel}
+
+# tf_conversions, only needed for plugs until the debians catch up
+- hg: {local-name: src/geometry, uri: 'http://kforge.ros.org/geometry/geometry'}
 
 # people tracking and trunk opencv. if you don't want to track people, you can remove this
 #- svn: {local-name: src/people_tracking, uri: 'svn+ssh://vcs@kforge.ros.org/sandbox/people_tracking/trunk'}
