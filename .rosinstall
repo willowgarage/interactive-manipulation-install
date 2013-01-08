@@ -20,8 +20,10 @@
 - svn: {local-name: src/mjpeg_server, uri: 'http://svn.code.sf.net/p/bosch-ros-pkg/code/trunk/stacks/mjpeg_server'}
 - git: {local-name: src/ros_http_video_streamer, uri: 'git@github.com:RobotWebTools/ros_http_video_streamer.git', version: groovy-devel}
 - git: {local-name: src/interactive_marker_proxy, uri: 'git@github.com:dgossow/interactive_marker_proxy.git', version: groovy-devel}
-- git: {local-name: src/tf2_web_republisher, uri: 'git@github.com:RobotWebTools/tf2_web_republisher.git', version: groovy-devel}
-- git: {local-name: src/geometry_experimental, uri: 'git@github.com:jkammerl/geometry-experimental.git', version: groovy-devel}
+- git: {local-name: src/tf2_web_republisher, uri: 'git@github.com:RobotWebTools/tf2_web_republisher.git', version: fuerte-devel}
+
+# This is needed when using the (catkinized) groovy-devel version of tf2_web_republisher
+#- git: {local-name: src/geometry_experimental, uri: 'git@github.com:jkammerl/geometry-experimental.git', version: groovy-devel}
 
 # for running the web version of pr2_marker_control standalone
 - git: {local-name: src/interactivemarkersjs, uri: 'git://github.com/dgossow/interactivemarkersjs.git', version: groovy-devel}
