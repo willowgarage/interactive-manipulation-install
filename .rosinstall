@@ -23,6 +23,9 @@
 - git: {local-name: src/tf2_web_republisher, uri: 'git@github.com:RobotWebTools/tf2_web_republisher.git', version: groovy-devel}
 - git: {local-name: src/geometry_experimental, uri: 'git@github.com:jkammerl/geometry-experimental.git', version: groovy-devel}
 
+# for running the web version of pr2_marker_control standalone
+- git: {local-name: src/interactivemarkersjs, uri: 'git://github.com/dgossow/interactivemarkersjs.git', version: groovy-devel}
+
 # people tracking and trunk opencv. if you don't want to track people, you can remove this
 #- svn: {local-name: src/people_tracking, uri: 'svn+ssh://vcs@kforge.ros.org/sandbox/people_tracking/trunk'}
 #- git: {local-name: src/opencv_trunk, uri: 'git@github.com:jonbinney/opencv_trunk.git'}
