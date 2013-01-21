@@ -17,6 +17,7 @@
 
 # video and depth streaming
 - git: {local-name: src/ros_http_video_streamer, uri: 'git@github.com:RobotWebTools/ros_http_video_streamer.git', version: groovy-devel}
+- git: {local-name: src/depthcloudjs, uri: 'git@github.com:willowgarage/depthcloudjs.git', version: groovy-devel}
 
 # tf_conversions, only needed for plugs until the debians catch up
 - hg: {local-name: src/geometry, uri: 'http://kforge.ros.org/geometry/geometry'}
@@ -37,9 +38,12 @@
 - hg: {local-name: rosbuild_src/smach, uri: 'https://kforge.ros.org/smach/executive_smach'}
 
 # web interface dependencies
-- git: {local-name: rosbuild_src/rosbridge_suite, uri: 'git://github.com/RobotWebTools/rosbridge_suite.git', version: fuerte-devel}
+- git: {local-name: src/rosbridge_suite, uri: 'git@github.com:RobotWebTools/rosbridge_suite.git', version: groovy-devel}
 - git: {local-name: rosbuild_src/interactive-manipulation-sandbox, uri: 'git@github.com:willowgarage/interactive-manipulation-sandbox.git', version: groovy-devel}
 - svn: {local-name: rosbuild_src/mjpeg_server, uri: 'http://svn.code.sf.net/p/bosch-ros-pkg/code/trunk/stacks/mjpeg_server'}
+
+# world model
+- git: {local-name: src/world_model, uri: 'git@github.com:willowgarage/world_model.git', version: groovy-devel}
 
 # freenect alternative to openni driver
 - git: {local-name: rosbuild/freenect_stack, uri: 'git://github.com/jon-weisz/freenect_stack.git', version: master}
