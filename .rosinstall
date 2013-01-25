@@ -49,5 +49,5 @@
 - git: {local-name: rosbuild_src/freenect_stack, uri: 'git://github.com/jon-weisz/freenect_stack.git', version: master}
 
 # the new sql database
-- git: {local-name: src/sql_database, uri: 'git@github.com:ros-interactive-manipulation/sql_database.git', version:groovy-devel}
+- git: {local-name: src/sql_database, uri: 'git@github.com:ros-interactive-manipulation/sql_database.git', version: groovy-devel}
 
