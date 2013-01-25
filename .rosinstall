@@ -40,3 +40,6 @@
 - git: {local-name: rosbuild_src/rosbridge_suite, uri: 'git://github.com/RobotWebTools/rosbridge_suite.git', version: fuerte-devel}
 - git: {local-name: rosbuild_src/interactive-manipulation-sandbox, uri: 'git@github.com:willowgarage/interactive-manipulation-sandbox.git', version: groovy-devel}
 - svn: {local-name: rosbuild_src/mjpeg_server, uri: 'http://svn.code.sf.net/p/bosch-ros-pkg/code/trunk/stacks/mjpeg_server'}
+
+# the new sql database
+- git: {local-name: src/sql_database, uri: 'git@github.com:ros-interactive-manipulation/sql_database.git', version:groovy-devel}
