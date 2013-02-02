@@ -43,7 +43,6 @@
 - svn: {local-name: rosbuild_src/mjpeg_server, uri: 'http://svn.code.sf.net/p/bosch-ros-pkg/code/trunk/stacks/mjpeg_server'}
 
 # world model
-- git: {local-name: src/robot_pose_publisher, uri: 'git@github.com:WPI-RAIL/robot_pose_publisher.git', version: groovy-devel}
 - git: {local-name: src/world_model, uri: 'git@github.com:willowgarage/world_model.git', version: groovy-devel}
 
 # freenect alternative to openni driver
