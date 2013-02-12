@@ -17,10 +17,6 @@
 # tf_conversions, only needed for plugs until the debians catch up
 - hg: {local-name: src/geometry, uri: 'http://kforge.ros.org/geometry/geometry'}
 
-# people tracking and trunk opencv. if you don't want to track people, you can remove this
-#- svn: {local-name: src/people_tracking, uri: 'svn+ssh://vcs@kforge.ros.org/sandbox/people_tracking/trunk'}
-#- git: {local-name: src/opencv_trunk, uri: 'git@github.com:jonbinney/opencv_trunk.git'}
-
 
 ## rosbuild (dry) stacks & packages ###############
 
