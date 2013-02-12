@@ -8,12 +8,13 @@
 
 # interactive markers
 # - git: {local-name: src/interactive_markers, uri: 'git@github.com:ros-visualization/interactive_markers.git', version: groovy-devel}
-- git: {local-name: src/interactive_marker_proxy, uri: 'git@github.com:dgossow/interactive_marker_proxy.git', version: groovy-devel}
+# - git: {local-name: src/interactive_marker_proxy, uri: 'git@github.com:dgossow/interactive_marker_proxy.git', version: groovy-devel}
+# for running the web version of pr2_marker_control standalone
+# - git: {local-name: src/interactivemarkersjs, uri: 'git@github.com:RobotWebTools/interactivemarkersjs.git', version: groovy-devel}
+
+# tf for the web
 - git: {local-name: src/tf2_web_republisher, uri: 'git@github.com:RobotWebTools/tf2_web_republisher.git', version: groovy-devel}
 - git: {local-name: src/geometry_experimental, uri: 'git@github.com:jkammerl/geometry-experimental.git', version: groovy-devel}
-
-# for running the web version of pr2_marker_control standalone
-- git: {local-name: src/interactivemarkersjs, uri: 'git@github.com:RobotWebTools/interactivemarkersjs.git', version: groovy-devel}
 
 # video and depth streaming
 - git: {local-name: src/ros_http_video_streamer, uri: 'git@github.com:RobotWebTools/ros_http_video_streamer.git', version: groovy-devel}
