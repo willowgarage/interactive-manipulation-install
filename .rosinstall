@@ -24,7 +24,6 @@
 
 # pr2 plugs
 - hg: {local-name: rosbuild_src/pr2_plugs, uri: 'https://kforge.ros.org/plugs/hg'}
-- hg: {local-name: rosbuild_src/smach, uri: 'https://kforge.ros.org/smach/executive_smach'}
 
 # web interface dependencies
 - git: {local-name: src/rosbridge_suite, uri: 'git@github.com:RobotWebTools/rosbridge_suite.git', version: groovy-devel}
