@@ -27,6 +27,7 @@
 
 # web interface dependencies
 - git: {local-name: src/rosbridge_suite, uri: 'git@github.com:RobotWebTools/rosbridge_suite.git', version: groovy-devel}
+- git: {local-name: src/rospy_message_converter, uri: 'git@github.com:baalexander/rospy_message_converter', version: groovy-devel}
 - git: {local-name: rosbuild_src/interactive-manipulation-sandbox, uri: 'git@github.com:willowgarage/interactive-manipulation-sandbox.git', version: groovy-devel}
 
 # world model
