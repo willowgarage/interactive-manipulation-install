@@ -6,26 +6,13 @@
 
 ## catkin (wet) packages and js libraries ##################
 
-# interactive markers
-# - git: {local-name: src/interactive_markers, uri: 'git@github.com:ros-visualization/interactive_markers.git', version: groovy-devel}
-- git: {local-name: src/interactive_marker_proxy, uri: 'git@github.com:dgossow/interactive_marker_proxy.git', version: groovy-devel}
+# tf for the web
 - git: {local-name: src/tf2_web_republisher, uri: 'git@github.com:RobotWebTools/tf2_web_republisher.git', version: groovy-devel}
-- git: {local-name: src/geometry_experimental, uri: 'git@github.com:jkammerl/geometry-experimental.git', version: groovy-devel}
-
-# for running the web version of pr2_marker_control standalone
-- git: {local-name: src/interactivemarkersjs, uri: 'git@github.com:RobotWebTools/interactivemarkersjs.git', version: groovy-devel}
+- git: {local-name: src/geometry_experimental, uri: 'git@github.com:ros/geometry-experimental.git', version: groovy-devel}
 
 # video and depth streaming
 - git: {local-name: src/ros_http_video_streamer, uri: 'git@github.com:RobotWebTools/ros_http_video_streamer.git', version: groovy-devel}
 - git: {local-name: src/depthcloudjs, uri: 'git@github.com:willowgarage/depthcloudjs.git', version: groovy-devel}
-
-# tf_conversions, only needed for plugs until the debians catch up
-- hg: {local-name: src/geometry, uri: 'http://kforge.ros.org/geometry/geometry'}
-
-# people tracking and trunk opencv. if you don't want to track people, you can remove this
-#- svn: {local-name: src/people_tracking, uri: 'svn+ssh://vcs@kforge.ros.org/sandbox/people_tracking/trunk'}
-#- git: {local-name: src/opencv_trunk, uri: 'git@github.com:jonbinney/opencv_trunk.git'}
-
 
 ## rosbuild (dry) stacks & packages ###############
 
@@ -35,20 +22,20 @@
 
 # pr2 plugs
 - hg: {local-name: rosbuild_src/pr2_plugs, uri: 'https://kforge.ros.org/plugs/hg'}
-- hg: {local-name: rosbuild_src/smach, uri: 'https://kforge.ros.org/smach/executive_smach'}
 
 # web interface dependencies
 - git: {local-name: src/rosbridge_suite, uri: 'git@github.com:RobotWebTools/rosbridge_suite.git', version: groovy-devel}
+- git: {local-name: src/rospy_message_converter, uri: 'git@github.com:baalexander/rospy_message_converter', version: groovy-devel}
 - git: {local-name: rosbuild_src/interactive-manipulation-sandbox, uri: 'git@github.com:willowgarage/interactive-manipulation-sandbox.git', version: groovy-devel}
-- svn: {local-name: rosbuild_src/mjpeg_server, uri: 'http://svn.code.sf.net/p/bosch-ros-pkg/code/trunk/stacks/mjpeg_server'}
 
 # world model
 - git: {local-name: src/rospy_message_converter, uri: 'git@github.com:baalexander/rospy_message_converter', version: groovy-devel}
 - git: {local-name: src/world_model, uri: 'git@github.com:willowgarage/world_model.git', version: groovy-devel}
 
-# freenect alternative to openni driver
-- git: {local-name: rosbuild_src/freenect_stack, uri: 'git://github.com/jon-weisz/freenect_stack.git', version: master}
+############################# Optional stuff ############################
 
-# the new sql database
-- git: {local-name: src/sql_database, uri: 'git@github.com:ros-interactive-manipulation/sql_database.git', version: groovy-devel}
-
+# interactive markers sources
+# - git: {local-name: src/interactive_markers, uri: 'git@github.com:ros-visualization/interactive_markers.git', version: groovy-devel}
+# for running the web version of pr2_marker_control standalone
+# - git: {local-name: src/interactivemarkersjs, uri: 'git@github.com:RobotWebTools/interactivemarkersjs.git', version: groovy-devel}
+# - git: {local-name: src/interactive_marker_proxy, uri: 'git@github.com:ros-visualization/interactive_marker_proxy.git', version: groovy-devel}
