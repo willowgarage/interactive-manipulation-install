@@ -6,10 +6,6 @@
 
 ## catkin (wet) packages and js libraries ##################
 
-# tf for the web
-- git: {local-name: src/tf2_web_republisher, uri: 'git@github.com:RobotWebTools/tf2_web_republisher.git', version: groovy-devel}
-- git: {local-name: src/geometry_experimental, uri: 'git@github.com:ros/geometry-experimental.git', version: groovy-devel}
-
 # video and depth streaming
 - git: {local-name: src/depthcloudjs, uri: 'git@github.com:willowgarage/depthcloudjs.git', version: groovy-devel}
 
