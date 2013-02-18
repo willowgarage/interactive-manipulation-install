@@ -11,7 +11,6 @@
 - git: {local-name: src/geometry_experimental, uri: 'git@github.com:ros/geometry-experimental.git', version: groovy-devel}
 
 # video and depth streaming
-- git: {local-name: src/ros_http_video_streamer, uri: 'git@github.com:RobotWebTools/ros_http_video_streamer.git', version: groovy-devel}
 - git: {local-name: src/depthcloudjs, uri: 'git@github.com:willowgarage/depthcloudjs.git', version: groovy-devel}
 
 ## rosbuild (dry) stacks & packages ###############
